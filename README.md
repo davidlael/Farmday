@@ -1,7 +1,7 @@
 # FarmDay Rwanda 🌱
 A weather-based activity planner for Rwandan farmers and rural communities. Choose a district and an activity (planting, drying harvest, spraying, travel) and get a 7-day forecast turned into clear advice: Best / OK / Avoid.
 
-- **Demo video:** <paste YouTube link later>
+- **Demo video:** <https://youtu.be/JYBD9mi1XEA>
 - **Live (load balancer):** http://3.9.180.234
 - **Web01:** http://18.171.52.4 | **Web02:** http://18.171.148.55 
 - **Author:** Nziza Lael David
@@ -46,4 +46,5 @@ A weather-based activity planner for Rwandan farmers and rural communities. Choo
 
 ## Credits
 Open-Meteo API, Nginx, HAProxy. 
+
 I understand the code and can explain it.
