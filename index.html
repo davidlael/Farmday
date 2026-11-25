@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Farmday Rwanda</title><link rel="stylesheet" href="style.css"></head>
+<body>
+    <header>
+        <h1>Welcome to Farmday Rwanda</h1><p>Find the best day this week to plant, dry, spray or  travel.</p>
+    </header>
+    <section class ="controls">
+        <input id="district" list="dl" value="Gasabo" placeholder="Search district..."><datalist id="dl"></datalist>
+        <select id="activity">
+            <option value="planting">Planting</option><option value="drying">Drying harvest</option>
+            <option value="spraying">Spraying Crops</option><option value="travel">Travel</option></select>
+       <select id="sort"><option value="date">Sort: by date</option><option value="best">Sort: best first</option></select> 
+       <select id="filter"><option value="all">Show: all days</option><option value="good">Show: best days only</option></select>   
+       <button id="go">Get forecast</button>
+    </section>
+    <p id="status">Loading...</p>
+    <main id="grid"></main>
+    <footer>Weather data: <a href="https://open-meteo.com">Open-Meteo API</a> | Served by: <b id="srv">...</b></footer>
+    <script src="script.js"></script>
+</body>
+</html>
