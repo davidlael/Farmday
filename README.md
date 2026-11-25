@@ -45,4 +45,5 @@ A weather-based activity planner for Rwandan farmers and rural communities. Choo
 - Finding the project path inside OneDrive From WSL
 
 ## Credits
-Open-Meteo API, Nginx, HAProxy. Built with AI assistance for planning and debugging; I understand the code and can explain it.
+Open-Meteo API, Nginx, HAProxy. 
+I understand the code and can explain it.
